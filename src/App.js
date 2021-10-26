@@ -1,9 +1,10 @@
 import './App.css';
+import topbar from './components/topbar/topbar';
 
 function App() {
   return (
     <div className="App">
-      <h3> My React Portfolio</h3>
+      <topbar />
     </div>
   );
 }
