@@ -1,6 +1,6 @@
 import './introduction.scss';
 
-export default function introduction() {
+export default function Introduction() {
   return (
     <div className="introduction" />
   );
