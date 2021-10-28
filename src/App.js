@@ -1,10 +1,10 @@
 import './App.css';
-import Contact from './components/contact/contact';
-import Introduction from './components/introduction/introduction';
-import Portfolio from './components/portfolio/portfolio';
-import Testimonials from './components/testimonials/testimonials';
-import Topbar from './components/topbar/topbar';
-import Works from './components/works/works';
+import Contact from './components/contact/Contact';
+import Introduction from './components/introduction/Introduction';
+import Portfolio from './components/portfolio/Portfolio';
+import Testimonials from './components/testimonials/Testimonials';
+import Topbar from './components/topbar/Topbar';
+import Works from './components/works/Works';
 
 function App() {
   return (
