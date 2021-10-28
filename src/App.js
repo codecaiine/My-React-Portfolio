@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Contact from './components/contact/Contact';
 import Introduction from './components/introduction/Introduction';
 import Portfolio from './components/portfolio/Portfolio';
