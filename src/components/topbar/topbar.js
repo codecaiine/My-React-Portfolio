@@ -8,11 +8,11 @@ export default function Topbar() {
         <div className="left">
           <a href="#introduction" className="logo">CoDecaine</a>
           <div className="itemContainer">
-            <Person />
+            <Person className="icon" />
             <span>+225 0709981789</span>
           </div>
           <div className="itemContainer">
-            <Mail />
+            <Mail className="icon" />
             <span>akabrouyannickn@gmail.com</span>
           </div>
         </div>
