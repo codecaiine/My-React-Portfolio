@@ -1,9 +1,9 @@
 import './topbar.scss';
 import { Person, Mail } from '@material-ui/icons';
 
-export default function Topbar() {
+export default function Topbar({ menuOpen, setOpenMenu }) {
   return (
-    <div className="topbar">
+    <div className={`topbar${menuOpen && 'active'}`}>
       <div className="wrapper">
         <div className="left">
           <a href="#introduction" className="logo">CoDecaine</a>
