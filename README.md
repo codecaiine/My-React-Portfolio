@@ -9,4 +9,9 @@ This is my personal porfolio built with react
 
 ## Authors
 
-### Yannick Noel Aka
+👤 **Yannick-Noel AKA**
+
+- Location: Côte d'Ivoire
+- GitHub: [@codecaiine](https://github.com/codecaiine)
+- Twitter: [@yannicknaka](https://twitter.com/yannicknaka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yannick-no%C3%ABl-aka/)
