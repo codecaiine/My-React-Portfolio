@@ -31,6 +31,11 @@
       .itemContainer {
         display: flex;
         align-items: center;
+        margin-left: 30px;
+
+        @include mobile{
+          display: none;
+        }
 
         .icon {
           font-size: 18px;
@@ -39,7 +44,7 @@
 
         span {
           font-size: 15px;
-          font-weight: 400;
+          font-weight: 500;
         }
       }
     }
@@ -74,13 +79,12 @@
           background-color: white;
           transform: rotate(45deg);
         }
-
         &:nth-child(2) {
           opacity: 0;
         }
-
         &:last-child {
           background-color: white;
+          transform: rotate(-45deg);
         }
       }
     }
