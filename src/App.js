@@ -8,28 +8,19 @@ import Topbar from './components/topbar/Topbar';
 import Works from './components/works/Works';
 
 function App() {
-    const [menuOpen, setMenuOpen] = useState(true);
-    return ( <
-        div className = "App" >
-        <
-        Topbar menuOpen = { menuOpen }
-        setMenuOpen = { setMenuOpen }
-        /> <
-        div className = "sections" >
-        <
-        Introduction / >
-        <
-        Portfolio / >
-        <
-        Works / >
-        <
-        Testimonials / >
-        <
-        Contact / >
-        <
-        /div> <
-        /div>
-    );
+  const [menuOpen, setMenuOpen] = useState(false);
+  return (
+    <div className="App">
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <div className="sections">
+        <Introduction />
+        <Portfolio />
+        <Works />
+        <Testimonials />
+        <Contact />
+      </div>
+    </div>
+  );
 }
 
 export default App;
