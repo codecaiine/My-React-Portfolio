@@ -1,6 +1,6 @@
 import './works.scss';
 
-export default function works() {
+export default function Works() {
   return (
     <div className="works" />
   );
