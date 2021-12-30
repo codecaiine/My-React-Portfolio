@@ -4,8 +4,8 @@ export default function Introduction() {
   return (
     <div className="introduction" id="introduction">
          <div className="left">
-             <div className="imgProfile">
-                  <img src="assets/pictures/profile.jpg" alt="Profile"/>
+             <div className="img-profile">
+                  <img src="assets/pictures/profile.png" alt="Profile"/>
              </div>
          </div>
          <div className="right"></div>

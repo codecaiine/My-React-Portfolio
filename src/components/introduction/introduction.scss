@@ -3,6 +3,16 @@
     display: flex;
     .left {
         flex: 0.5;
+        overflow: hidden;
+
+        .img-profile{
+          width: 700px;
+          height: 700px;
+
+          img{
+            height: 90%;
+          }
+        }
     }
     .right {
         flex: 0.5;
