@@ -4,14 +4,14 @@
     .left {
         flex: 0.5;
         overflow: hidden;
-
-        .img-profile{
-          width: 700px;
-          height: 700px;
-
-          img{
-            height: 90%;
-          }
+        .img-profile {
+            width: 700px;
+            height: 700px;
+            background-color: #0a0938;
+            border-radius: 50%;
+            img {
+                height: 90%;
+            }
         }
     }
     .right {
