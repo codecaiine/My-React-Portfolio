@@ -12,7 +12,7 @@ export default function Introduction() {
             <div className="wrapper">
                  <h2> Hello My name is</h2>
                  <h1>Yannick Noel</h1>
-                 <h3>Software Engineer<span></span></h3>
+                 <h3>Remote<span>Software Engineer</span></h3>
             
             <a href="#portfolio">
                <img src="assets/icons/arrow-down.png" alt="arrow-down"/>
