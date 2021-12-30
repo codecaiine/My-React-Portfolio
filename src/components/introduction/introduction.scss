@@ -38,6 +38,20 @@
             h3 {
                 font-size: 30px;
             }
+            a {
+                position: absolute;
+                bottom: 10px;
+                left: 40%;
+                img {
+                    width: 30px;
+                    animation: arrowBlink 2s infinite;
+                }
+                @keyframes arrowBlink {
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            }
         }
     }
 }
