@@ -2,6 +2,8 @@ import './introduction.scss';
 import { init } from "ityped";
 
 export default function Introduction() {
+  const textRef = useRef();
+  
   return (
     <div className="introduction" id="introduction">
          <div className="left">
