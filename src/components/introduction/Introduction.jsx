@@ -1,4 +1,5 @@
 import './introduction.scss';
+import { init } from "ityped";
 
 export default function Introduction() {
   return (
