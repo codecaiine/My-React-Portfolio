@@ -48,7 +48,10 @@
                     width: 30px;
                     animation: arrowBlink 2s infinite;
                 }
-                @keyframes arrowBlink {
+                @keyframes blink {
+                    50% {
+                        opacity: 1;
+                    }
                     100% {
                         opacity: 0;
                     }
