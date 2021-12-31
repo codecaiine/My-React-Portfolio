@@ -2,6 +2,13 @@
 import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import './portfolio.scss';
+import {
+  allPortfolio,
+  rorPortfolio,
+  djangoPortfolio,
+  reactPortfolio,
+  phpPortfolio,
+} from "../../data";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("all");
