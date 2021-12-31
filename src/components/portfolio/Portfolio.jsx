@@ -17,6 +17,22 @@ export default function Portfolio() {
              <img src="assets/social/coding.png" alt="my-work" />
              <h3>My blog App</h3>
            </div>
+           <div className="work-item">
+             <img src="assets/social/coding.png" alt="my-work" />
+             <h3>My blog App</h3>
+           </div>
+           <div className="work-item">
+             <img src="assets/social/coding.png" alt="my-work" />
+             <h3>My blog App</h3>
+           </div>
+           <div className="work-item">
+             <img src="assets/social/coding.png" alt="my-work" />
+             <h3>My blog App</h3>
+           </div>
+           <div className="work-item">
+             <img src="assets/social/coding.png" alt="my-work" />
+             <h3>My blog App</h3>
+           </div>
         </div>
     </div>
   );
