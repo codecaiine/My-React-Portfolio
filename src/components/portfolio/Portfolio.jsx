@@ -12,6 +12,7 @@ import {
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("all");
+  const [data, setData] = useState([]);
   const stackList = [
     {
       id: "all",
