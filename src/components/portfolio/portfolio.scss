@@ -12,16 +12,6 @@
         padding: 0;
         list-style: none;
         display: flex;
-        li {
-            font-size: 14px;
-            margin-right: 5px;
-            padding: 7px;
-            cursor: pointer;
-            &.active {
-                background-color: $mainColor;
-                color: white;
-            }
-        }
     }
     .container {
         width: 70%;
