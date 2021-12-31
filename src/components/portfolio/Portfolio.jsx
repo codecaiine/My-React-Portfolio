@@ -1,16 +1,33 @@
 import './portfolio.scss';
 
 export default function Portfolio() {
+  const techStack = [
+    {
+      id: "all",
+      title: "All",
+    },
+    {
+      id: "django",
+      title: "Django",
+    },
+    {
+      id: "ror",
+      title: "Ruby On Rails",
+    },
+    {
+      id: "react",
+      title: "React",
+    },
+    {
+      id: "php",
+      title: "Php",
+    },
+  ];
+
   return (
     <div className="portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <ul>
-            <li className="active">All</li>
-            <li>Ruby</li>
-            <li>Python</li>
-            <li>PHP</li>
-            <li>Java</li>
-            <li>JavaScript</li>
         </ul>
         <div className="container">
            <div className="work-item">
