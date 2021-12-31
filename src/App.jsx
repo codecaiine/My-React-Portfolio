@@ -9,7 +9,7 @@ import Works from './components/works/Works';
 import Menu from './components/menu/Menu';
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="App">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
