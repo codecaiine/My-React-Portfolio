@@ -62,7 +62,6 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <ul>
-        <ul>
         {stackList.map((item) => (
           <PortfolioList
             title={item.title}
@@ -72,7 +71,6 @@ export default function Portfolio() {
           />
         ))}
       </ul>
-        </ul>
         <div className="container">
            <div className="work-item">
              <img src="assets/social/coding.png" alt="my-work" />
