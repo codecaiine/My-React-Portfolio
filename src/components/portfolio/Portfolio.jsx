@@ -32,11 +32,16 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <ul>
+        <ul>
         {stackList.map((item) => (
           <PortfolioList
-          title={item.title}
+            title={item.title}
+            active={selected === item.id}
+            setSelected={setSelected}
+            id={item.id}
           />
         ))}
+      </ul>
         </ul>
         <div className="container">
            <div className="work-item">
