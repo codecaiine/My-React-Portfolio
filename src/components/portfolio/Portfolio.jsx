@@ -5,7 +5,7 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <ul>
-            <li>All</li>
+            <li className="active">All</li>
             <li>Ruby</li>
             <li>Python</li>
             <li>PHP</li>
