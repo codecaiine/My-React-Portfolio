@@ -1,3 +1,4 @@
+@import "../../global.scss";
 .introduction {
     background-color: white;
     display: flex;
@@ -7,10 +8,10 @@
         .img-profile {
             width: 700px;
             height: 700px;
-            background-color: #0a0938;
+            background-color: #1f1f1f;
             border-radius: 50%;
             display: flex;
-            align-items: center;
+            align-items: flex-end;
             justify-content: center;
             float: right;
             img {
@@ -37,16 +38,12 @@
             }
             h3 {
                 font-size: 30px;
-                font-size: inherit;
-                color: crimson;
-            }
-            a {
-                position: absolute;
-                bottom: 10px;
-                left: 40%;
-                img {
-                    width: 30px;
-                    animation: arrowBlink 2s infinite;
+                span {
+                    font-size: inherit;
+                    color: #1fdd0c;
+                }
+                .ityped-cursor {
+                    animation: blink 1s infinite;
                 }
                 @keyframes blink {
                     50% {
@@ -55,6 +52,20 @@
                     100% {
                         opacity: 0;
                     }
+                }
+            }
+        }
+        a {
+            position: absolute;
+            bottom: 10px;
+            left: 40%;
+            img {
+                width: 30px;
+                animation: arrowBlink 2s infinite;
+            }
+            @keyframes arrowBlink {
+                100% {
+                    opacity: 0;
                 }
             }
         }
