@@ -1,7 +1,7 @@
 import './portfolio.scss';
 
-export default function Portfolio() {
-  const techStack = [
+export default function PortfolioList() {
+  const stackList = [
     {
       id: "all",
       title: "All",
@@ -28,6 +28,9 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <ul>
+        {stackList.map((item) => (
+          <PortfolioList/>
+        ))}
         </ul>
         <div className="container">
            <div className="work-item">
