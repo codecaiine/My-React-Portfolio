@@ -1,4 +1,4 @@
-import React from 'react'
+import "./portfolioList.scss"
 
 export default function portfolioList() {
     return (
