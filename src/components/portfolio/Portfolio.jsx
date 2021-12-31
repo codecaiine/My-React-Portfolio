@@ -1,6 +1,7 @@
+import PortfolioList from "../portfolioList/PortfolioList";
 import './portfolio.scss';
 
-export default function PortfolioList() {
+export default function Portfolio() {
   const stackList = [
     {
       id: "all",
