@@ -30,7 +30,9 @@ export default function Portfolio() {
         <h1>Portfolio</h1>
         <ul>
         {stackList.map((item) => (
-          <PortfolioList/>
+          <PortfolioList
+          title={item.title}
+          />
         ))}
         </ul>
         <div className="container">

@@ -1,9 +1,9 @@
 import "./portfolioList.scss"
 
-export default function portfolioList() {
+export default function portfolioList(title) {
     return (
-        <div>
-            
-        </div>
+        <li className="portfoliolist">
+            {title}
+        </li>
     )
 }
