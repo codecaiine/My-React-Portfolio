@@ -36,6 +36,28 @@ export default function Portfolio() {
     },
   ];
 
+  useEffect(() => {
+    switch (selected) {
+      case "all":
+        setData(allPortfolio);
+        break;
+      case "ror":
+        setData(rorPortfolio);
+        break;
+      case "django":
+        setData(djangoPortfolio);
+        break;
+      case "react":
+        setData(reactPortfolio);
+        break;
+      case "php":
+        setData(phpPortfolio);
+        break;
+      default:
+        setData(allPortfolio);
+    }
+  }, [selected]);
+
   return (
     <div className="portfolio" id="portfolio">
         <h1>Portfolio</h1>
