@@ -71,28 +71,17 @@ export default function Portfolio() {
           />
         ))}
       </ul>
-        <div className="container">
-           <div className="work-item">
-             <img src="assets/social/coding.png" alt="my-work" />
-             <h3>My blog App</h3>
-           </div>
-           <div className="work-item">
-             <img src="assets/social/coding.png" alt="my-work" />
-             <h3>My blog App</h3>
-           </div>
-           <div className="work-item">
-             <img src="assets/social/coding.png" alt="my-work" />
-             <h3>My blog App</h3>
-           </div>
-           <div className="work-item">
-             <img src="assets/social/coding.png" alt="my-work" />
-             <h3>My blog App</h3>
-           </div>
-           <div className="work-item">
-             <img src="assets/social/coding.png" alt="my-work" />
-             <h3>My blog App</h3>
-           </div>
-        </div>
+      <div className="container">
+        {data.map((d) => (
+          <div className="item">
+            <img
+              src={d.img}
+              alt="project-img"
+            />
+            <h3>{d.title}</h3>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
