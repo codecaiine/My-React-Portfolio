@@ -4,6 +4,7 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import './portfolio.scss';
 
 export default function Portfolio() {
+  const [selected, setSelected] = useState("all");
   const stackList = [
     {
       id: "all",
