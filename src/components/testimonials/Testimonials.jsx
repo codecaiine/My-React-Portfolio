@@ -15,7 +15,7 @@ export default function Testimonials() {
     {
       id: 2,
       name: "Donard Golaj",
-      title: "Full-Stack Developer Student at Microverse",
+      title: "Full-Stack Developer Student",
       img:
         "https://media-exp1.licdn.com/dms/image/D5635AQEMVA0zFCntEQ/profile-framedphoto-shrink_200_200/0/1634289246534?e=1641157200&v=beta&t=5KAt6SYpBK095yJE3AFG_R7ofaQwInG3GFo-nQ_bOtE",
       icon: "assets/social/twitter.png",
