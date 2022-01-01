@@ -10,6 +10,11 @@ export default function Works() {
                 <div className="leftContainer">
                   <div className="imgContainer">
                     <img src="assets/social/coding.png" alt="work-one" />
+                  <h2>Title</h2>
+                  <p>Fafaga afafa bababaa ahahaa nannananan anananana
+                    agaagaga ggdyumamamama mamamaam ammamaamm anbnnnn
+                  </p>
+                  <span>Project</span>
                   </div>
                 </div>
               </div>

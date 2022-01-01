@@ -27,6 +27,13 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    .leftContainer {
+                        width: 90%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
                 }
                 .right {
                     flex: 8;
