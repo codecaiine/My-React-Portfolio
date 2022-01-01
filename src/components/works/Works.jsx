@@ -6,7 +6,7 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
+      icon: "./assets/social/globe.png",
       title: "Web Design",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -15,7 +15,7 @@ export default function Works() {
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
+      icon: "./assets/social/globe.png",
       title: "Mobile Application",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -24,7 +24,7 @@ export default function Works() {
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
+      icon: "./assets/social/contract.png",
       title: "Branding",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
