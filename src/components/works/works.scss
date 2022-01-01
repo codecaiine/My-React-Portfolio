@@ -21,6 +21,13 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                .left {
+                    flex: 4;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
             }
         }
     }
