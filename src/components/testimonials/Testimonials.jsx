@@ -4,20 +4,20 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
-      title: "Senior Developer",
+      name: "Olipliche Paka Mavoungou",
+      title: "Full-Stack Web Developer",
       img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://media-exp1.licdn.com/dms/image/C4E03AQFHnfsZjxq7kg/profile-displayphoto-shrink_200_200/0/1635046570825?e=1646265600&v=beta&t=orWBagvNvGCdWjuDi-mVWv1EKteiV7Ahx_BE7LxR03Y",
       icon: "assets/social/twitter.png",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
+      name: "Donard Golaj",
+      title: "Full-Stack Developer Student at Microverse",
       img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://media-exp1.licdn.com/dms/image/D5635AQEMVA0zFCntEQ/profile-framedphoto-shrink_200_200/0/1634289246534?e=1641157200&v=beta&t=5KAt6SYpBK095yJE3AFG_R7ofaQwInG3GFo-nQ_bOtE",
       icon: "assets/social/twitter.png",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
@@ -25,10 +25,10 @@ export default function Testimonials() {
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Kossi Fioklou",
+      title: "Full-Stack Developer",
       img:
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://media-exp1.licdn.com/dms/image/C4E03AQG5Fj6jthO_7g/profile-displayphoto-shrink_200_200/0/1634589222858?e=1646265600&v=beta&t=kvpgjX7AevochTytbrFcD6Ol7HWzb-OzzGl8Q5zP05M",
       icon: "assets/social/linkedin.png",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
