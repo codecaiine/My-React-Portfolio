@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './works.scss';
+import "./works.scss";
 
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -38,7 +38,7 @@ export default function Works() {
       ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
-
+  
   return (
     <div className="works" id="works">
       <div
@@ -68,14 +68,18 @@ export default function Works() {
           </div>
         ))}
       </div>
-        <img
+      <img
         src="assets/icons/next.png"
         className="arrow left"
-        alt="" />
+        alt="arrow"
+        onClick={() => handleClick("left")}
+      />
       <img
         src="assets/icons/next.png"
         className="arrow right"
-        alt="" />
+        alt="arrow"
+        onClick={() => handleClick()}
+      />
     </div>
   );
 }
