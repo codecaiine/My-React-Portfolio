@@ -69,13 +69,13 @@ export default function Works() {
         ))}
       </div>
       <img
-        src="assets/icons/next.png"
+        src="assets/arrow.png"
         className="arrow left"
         alt="arrow"
         onClick={() => handleClick("left")}
       />
       <img
-        src="assets/icons/next.png"
+        src="assets/arrow.png"
         className="arrow right"
         alt="arrow"
         onClick={() => handleClick()}
