@@ -36,16 +36,29 @@ export default function Testimonials() {
   ];
   return (
     <div className="testimonials" id="testimonials">
-     <h1>Testimonials</h1>
-     <div className="container">
-       <div className="card">
-         <div className="top">
-           <img src="assets/right-arrow.png" className="left" alt="arrow" />
-         </div>
-         <div className="center"></div>
-         <div className="bottom"></div>
-       </div>
-     </div>
+      <h1>Testimonials</h1>
+      <div className="container">
+        {data.map((d) => (
+          <div className={d.featured ? "card featured" : "card"}>
+            <div className="top">
+              <img src="assets/right-arrow.png" className="left" alt="pic" />
+              <img
+                className="user"
+                src={d.img}
+                alt="user"
+              />
+              <img className="right" src={d.icon} alt="icon" />
+            </div>
+            <div className="center">
+              {d.desc}
+            </div>
+            <div className="bottom">
+              <h3>{d.name}</h3>
+              <h4>{d.title}</h4>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
