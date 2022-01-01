@@ -43,6 +43,12 @@
                 border-radius: 2px;
                 font-weight: 500px;
                 cursor: pointer;
+                &:focus {
+                    outline: none;
+                }
+            }
+            span {
+                color: green;
             }
         }
     }
