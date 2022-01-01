@@ -31,8 +31,18 @@
             }
             textarea {
                 width: 300px;
-                height: 30px;
+                height: 200px;
                 font-size: 14px;
+            }
+            button {
+                width: 150px;
+                height: 30px;
+                color: white;
+                background-color: #3a10e5;
+                border: none;
+                border-radius: 2px;
+                font-weight: 500px;
+                cursor: pointer;
             }
         }
     }
