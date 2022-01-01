@@ -1,6 +1,6 @@
 @import "../../global.scss";
 .works {
-    background-color: crimson;
+    background-color: #1f1f1f;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@
             align-items: center;
             justify-content: center;
             .item {
-                width: 700px;
+                width: 780px;
                 height: 100%;
                 background-color: white;
                 border-radius: 20px;
@@ -61,13 +61,13 @@
                             }
                         }
                         h2 {
-                            font-size: 20px;
+                            font-size: 26px;
                         }
                         p {
-                            font-size: 13px;
+                            font-size: 16px;
                         }
                         span {
-                            font-size: 12px;
+                            font-size: 17px;
                             font-weight: 600;
                             text-decoration: underline;
                             cursor: pointer;
