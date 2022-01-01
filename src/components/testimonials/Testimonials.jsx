@@ -6,6 +6,7 @@ export default function Testimonials() {
       id: 1,
       name: "Olipliche Paka Mavoungou",
       title: "Full-Stack Web Developer",
+      url: "https://www.linkedin.com/in/olipliche/",
       img:
         "https://media-exp1.licdn.com/dms/image/C4E03AQFHnfsZjxq7kg/profile-displayphoto-shrink_200_200/0/1635046570825?e=1646265600&v=beta&t=orWBagvNvGCdWjuDi-mVWv1EKteiV7Ahx_BE7LxR03Y",
       icon: "assets/social/twitter.png",
@@ -17,6 +18,7 @@ export default function Testimonials() {
       id: 2,
       name: "Donard Golaj",
       title: "Full-Stack Developer Student",
+      url: "https://www.linkedin.com/in/donardgolaj/",
       img:
         "https://media-exp1.licdn.com/dms/image/D5635AQEMVA0zFCntEQ/profile-framedphoto-shrink_200_200/0/1634289246534?e=1641157200&v=beta&t=5KAt6SYpBK095yJE3AFG_R7ofaQwInG3GFo-nQ_bOtE",
       icon: "assets/social/twitter.png",
@@ -29,6 +31,7 @@ export default function Testimonials() {
       id: 3,
       name: "Kossi Fioklou",
       title: "Full-Stack Developer",
+      url: "https://www.linkedin.com/in/kossi-stack/",
       img:
         "https://media-exp1.licdn.com/dms/image/C4E03AQG5Fj6jthO_7g/profile-displayphoto-shrink_200_200/0/1634589222858?e=1646265600&v=beta&t=kvpgjX7AevochTytbrFcD6Ol7HWzb-OzzGl8Q5zP05M",
       icon: "assets/social/linkedin.png",
@@ -50,7 +53,7 @@ export default function Testimonials() {
                 src={d.img}
                 alt="user"
               />
-              <img className="right" src={d.icon} alt="icon" />
+              <a href={d.url}><img className="right" src={d.icon} alt="icon" /></a>
             </div>
             <div className="center">
               {d.desc}
