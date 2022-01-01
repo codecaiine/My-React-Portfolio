@@ -1,7 +1,7 @@
 import './works.scss';
 
 export default function Works() {
-  
+
   const data = [
     {
       id: "1",
@@ -34,19 +34,21 @@ export default function Works() {
 
   return (
     <div className="works" id="works">
-        <div className="slider">
+      <div
+        className="slider"
+        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+      >
+        {data.map((d) => (
           <div className="container">
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
                   <div className="imgContainer">
-                    <img src="assets/social/coding.png" alt="work-one" />
-                  <h2>Title</h2>
-                  <p>Fafaga afafa bababaa ahahaa nannananan anananana
-                    agaagaga ggdyumamamama mamamaam ammamaamm anbnnnn
-                  </p>
-                  <span>Project</span>
+                    <img src={d.icon} alt="" />
                   </div>
+                  <h2>{d.title}</h2>
+                  <p>{d.desc}</p>
+                  <span>Projects</span>
                 </div>
               </div>
               <div className="right">
@@ -57,7 +59,8 @@ export default function Works() {
               </div>
             </div>
           </div>
-        </div>
+        ))}
+      </div>
         <img
         src="assets/icons/next.png"
         className="arrow left"
