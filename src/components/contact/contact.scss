@@ -14,5 +14,16 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        h2 {
+            font-size: 30px;
+        }
+        form {
+            width: 70%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
     }
 }
