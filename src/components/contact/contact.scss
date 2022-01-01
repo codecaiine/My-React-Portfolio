@@ -1,3 +1,55 @@
 .contact {
-  background-color: aqua;
+    background-color: #fcefe5;
+    display: flex;
+    .left {
+        flex: 1;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+    }
+    .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            font-size: 30px;
+        }
+        form {
+            width: 70%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            input {
+                width: 300px;
+                height: 30px;
+                font-size: 14px;
+            }
+            textarea {
+                width: 300px;
+                height: 200px;
+                font-size: 14px;
+            }
+            button {
+                width: 150px;
+                height: 30px;
+                color: white;
+                background-color: #3a10e5;
+                border: none;
+                border-radius: 2px;
+                font-weight: 500px;
+                cursor: pointer;
+                &:focus {
+                    outline: none;
+                }
+            }
+            span {
+                color: green;
+            }
+        }
+    }
 }
