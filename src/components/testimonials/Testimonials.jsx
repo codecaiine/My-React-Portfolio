@@ -6,7 +6,9 @@ export default function Testimonials() {
      <h1>Testimonials</h1>
      <div className="container">
        <div className="card">
-         <div className="top"></div>
+         <div className="top">
+           <img src="assets/right-arrow.png" className="left" alt="arrow" />
+         </div>
          <div className="center"></div>
          <div className="bottom"></div>
        </div>
