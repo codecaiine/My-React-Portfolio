@@ -1,13 +1,28 @@
+@import "../../global.scss";
 .works {
     background-color: crimson;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    .arrow {
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+        &.left {
+            left: 100px;
+            transform: rotateY(180deg);
+        }
+        &.right {
+            right: 100px;
+        }
+    }
     .slider {
         height: 350px;
         display: flex;
         position: absolute;
         left: 0;
+        transition: all 1s ease-out;
         .container {
             width: 100vw;
             display: flex;
@@ -41,6 +56,21 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            img {
+                                width: 25px;
+                            }
+                        }
+                        h2 {
+                            font-size: 20px;
+                        }
+                        p {
+                            font-size: 13px;
+                        }
+                        span {
+                            font-size: 12px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer;
                         }
                     }
                 }
@@ -51,6 +81,10 @@
                     align-items: center;
                     justify-content: center;
                     overflow: hidden;
+                    img {
+                        width: 400px;
+                        transform: rotate(-10deg);
+                    }
                 }
             }
         }
