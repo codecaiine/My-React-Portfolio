@@ -1,9 +1,16 @@
+@import "../../global.scss";
 .contact {
     background-color: #fcefe5;
     display: flex;
+    @include mobile {
+        flex-direction: column;
+    }
     .left {
         flex: 1;
         overflow: hidden;
+        @include mobile {
+            display: none;
+        }
         img {
             height: 100%;
         }
@@ -17,6 +24,10 @@
         h2 {
             font-size: 30px;
         }
+        p {
+            width: 68%;
+            padding: 10px 0;
+        }
         form {
             width: 70%;
             height: 70%;
@@ -25,18 +36,38 @@
             align-items: center;
             justify-content: space-around;
             input {
-                width: 300px;
-                height: 30px;
+                width: 450px;
+                height: 35px;
                 font-size: 14px;
+                @include mobile {
+                    width: 330px;
+                    height: 40px;
+                    margin: 0;
+                }
+            }
+            input::placeholder {
+                color: #666;
+                font-size: 16px;
+                padding: 20px 5px;
             }
             textarea {
-                width: 300px;
-                height: 200px;
+                width: 450px;
+                height: 170px;
                 font-size: 14px;
+                @include mobile {
+                    width: 330px;
+                    height: 100px;
+                }
+            }
+            textarea::placeholder {
+                color: #666;
+                font-size: 16px;
+                padding: 5px;
             }
             button {
-                width: 150px;
-                height: 30px;
+                width: 200px;
+                height: 50px;
+                font-size: 16px;
                 color: white;
                 background-color: #3a10e5;
                 border: none;
