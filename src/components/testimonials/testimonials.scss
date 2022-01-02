@@ -1,13 +1,17 @@
 @import "../../global.scss";
-
 .testimonials {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    @include mobile {
+        justify-content: space-around;
+    }
     h1 {
         font-size: 50px;
+        @include mobile {
+            font-size: 20px;
+        }
     }
     .container {
         width: 100%;
@@ -15,6 +19,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @include mobile {
+            flex-direction: column;
+            height: 100%;
+        }
         .card {
             width: 250px;
             height: 70%;
@@ -25,10 +33,19 @@
             justify-content: space-around;
             padding: 20px;
             transition: all 1s ease;
+            @include mobile {
+                height: 180px;
+                margin: 10px 0;
+            }
             &.featured {
                 width: 300px;
                 height: 75%;
                 margin: 0 30px;
+                @include mobile {
+                    width: 250px;
+                    height: 180px;
+                    margin: 1px;
+                }
             }
             &:hover {
                 transform: scale(1.1);
@@ -48,6 +65,10 @@
                         border-radius: 50%;
                         object-fit: cover;
                         margin: 0 30px;
+                        @include mobile {
+                            width: 30px;
+                            height: 30px;
+                        }
                     }
                 }
             }
@@ -56,6 +77,10 @@
                 border-radius: 10px;
                 background-color: transparent;
                 color: #10162f;
+                @include mobile {
+                    font-size: 12px;
+                    padding: 5px;
+                }
             }
             .bottom {
                 display: flex;
@@ -64,9 +89,15 @@
                 justify-content: center;
                 h3 {
                     margin-bottom: 5px;
+                    @include mobile {
+                        font-size: 14px;
+                    }
                 }
                 h4 {
                     color: rgb(121, 115, 115);
+                    @include mobile {
+                        font-size: 13px;
+                    }
                 }
             }
         }
