@@ -1,8 +1,11 @@
+@import "../../global.scss";
+
 .testimonials {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     h1 {
         font-size: 50px;
     }
