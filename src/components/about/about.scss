@@ -1,3 +1,11 @@
     .about {
         background-color: aqua;
+        .left {
+            background-color: yellow;
+            flex: 0.5;
+        }
+        .right {
+            background-color: black;
+            flex: 0.5;
+        }
     }

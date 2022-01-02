@@ -1,4 +1,4 @@
-import React from 'react'
+import './about.scss';
 
 export default function About() {
     return (
@@ -7,7 +7,7 @@ export default function About() {
 
             </div>
             <div className="right">
-                
+
             </div>
         </div>
     )
