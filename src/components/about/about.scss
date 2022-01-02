@@ -1,8 +1,8 @@
     .about {
-        background-color: aqua;
+        background-color: #fcefe5;
+        color: #10162f;
         display: flex;
         .left {
-            background-color: yellow;
             flex: 0.5;
             overflow: hidden;
             .leftContainer {
@@ -22,7 +22,6 @@
             }
         }
         .right {
-            background-color: black;
             flex: 0.5;
         }
     }
