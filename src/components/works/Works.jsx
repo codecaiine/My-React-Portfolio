@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./works.scss";
 
-export default function Works() {
+const Works = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
@@ -81,5 +81,7 @@ export default function Works() {
         onClick={() => handleClick()}
       />
     </div>
-  );
+  )
 }
+
+export default Works;
