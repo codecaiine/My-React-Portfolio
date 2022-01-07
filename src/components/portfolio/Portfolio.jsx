@@ -10,7 +10,7 @@ import {
   phpPortfolio,
 } from "../../data";
 
-export default function Portfolio() {
+const Portfolio = () => {
   const [selected, setSelected] = useState("all");
   const [data, setData] = useState([]);
   const stackList = [
@@ -83,5 +83,7 @@ export default function Portfolio() {
         ))}
       </div>
     </div>
-  );
+  )
 }
+
+export default Portfolio;
