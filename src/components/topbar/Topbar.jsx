@@ -1,7 +1,7 @@
 import "./topbar.scss";
 import { Person, Mail } from "@material-ui/icons";
 
-export default function Topbar({ menuOpen, setMenuOpen }) {
+const Topbar = ({ menuOpen, setMenuOpen }) => {
   return (
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
@@ -27,5 +27,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
+
+export default Topbar;
