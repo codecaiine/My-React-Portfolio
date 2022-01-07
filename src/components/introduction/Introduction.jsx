@@ -2,7 +2,7 @@ import './introduction.scss';
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 
-export default function Introduction() {
+const Introduction = () => {
   const textRef = useRef();
 
   useEffect(() => {
@@ -34,5 +34,6 @@ export default function Introduction() {
             </div>
          </div>
     </div>
-  );
+  )
 }
+export default Introduction;
