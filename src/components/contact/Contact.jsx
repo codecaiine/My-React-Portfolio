@@ -1,7 +1,7 @@
 import { useState } from "react";
 import './contact.scss';
 
-export default function Contact() {
+const Contact = () => {
   const [message, setMessage] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,5 +28,7 @@ export default function Contact() {
         </form>
       </div>
     </div>
-  );
+  )
 }
+
+export default Contact;
