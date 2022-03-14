@@ -78,7 +78,7 @@ const Portfolio = () => {
               src={d.img}
               alt="project-img"
             />
-            <h3>{d.title}</h3>
+            <h3><a href={d.url}>{d.title}</a></h3>
           </div>
         ))}
       </div>
